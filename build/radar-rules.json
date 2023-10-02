@@ -2143,6 +2143,27 @@
       }
     ]
   },
+  "ainvest.com": {
+    "_name": "AInvest",
+    ".": [
+      {
+        "title": "Latest Article",
+        "docs": "https://docs.rsshub.app/routes/finance#ainvest",
+        "source": [
+          "/news"
+        ],
+        "target": "/ainvest/article"
+      },
+      {
+        "title": "Latest News",
+        "docs": "https://docs.rsshub.app/routes/finance#ainvest",
+        "source": [
+          "/news"
+        ],
+        "target": "/ainvest/news"
+      }
+    ]
+  },
   "aip.org": {
     "_name": "American Institute of Physics",
     "pubs": [
@@ -2430,6 +2451,23 @@
       }
     ]
   },
+  "alternativeto.net": {
+    "_name": "AlternativeTo",
+    "www": [
+      {
+        "title": "Software Alternatives",
+        "docs": "https://docs.rsshub.app/routes/programming#alternativeto-software-alternatives",
+        "source": "/software/:name",
+        "target": "/software/:name"
+      },
+      {
+        "title": "Platform Software",
+        "docs": "https://docs.rsshub.app/routes/programming#alternativeto-platform-software",
+        "source": "/platform/:name",
+        "target": "/platform/:name"
+      }
+    ]
+  },
   "altervista.org": {
     "_name": "Altervista",
     "hyp3rlinx": [
@@ -2568,14 +2606,6 @@
   "apple.com": {
     "_name": "Apple",
     "apps": [
-      {
-        "title": "应用更新",
-        "docs": "https://docs.rsshub.app/routes/program-update#app-store-mac-app-store",
-        "source": [
-          "/:contry/app/:id"
-        ],
-        "target": "/appstore/update/:country/:id"
-      },
       {
         "title": "价格更新",
         "docs": "https://docs.rsshub.app/routes/program-update#app-store-mac-app-store",
@@ -4444,7 +4474,7 @@
     "www.genetics": [
       {
         "title": "遗传与生物学研究所 - 学术活动",
-        "docs": "https://docs.rsshub.app/university.html#zhong-guo-ke-xue-yuan",
+        "docs": "https://docs.rsshub.app/routes/university#zhong-guo-ke-xue-yuan",
         "source": [
           "/jixs/yg",
           "/"
@@ -4571,6 +4601,19 @@
         "source": [
           "/"
         ]
+      }
+    ]
+  },
+  "cbc.ca": {
+    "_name": "Canadian Broadcasting Corporation",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#canadian-broadcasting-corporation",
+        "source": [
+          "/news"
+        ],
+        "target": "/cbc/topics"
       }
     ]
   },
@@ -5086,6 +5129,997 @@
           "/"
         ],
         "target": "/chinaventure"
+      }
+    ]
+  },
+  "chinawriter.com.cn": {
+    "_name": "中国作家网",
+    ".": [
+      {
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/:id*"
+        ]
+      },
+      {
+        "title": "服务",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403937"
+        ],
+        "target": "/chinawriter/403937"
+      },
+      {
+        "title": "会员",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403978"
+        ],
+        "target": "/chinawriter/403978"
+      },
+      {
+        "title": "文学奖项",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403973"
+        ],
+        "target": "/chinawriter/403973"
+      },
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403990"
+        ],
+        "target": "/chinawriter/403990"
+      },
+      {
+        "title": "访谈",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403997"
+        ],
+        "target": "/chinawriter/403997"
+      },
+      {
+        "title": "艺术",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404002"
+        ],
+        "target": "/chinawriter/404002"
+      },
+      {
+        "title": "理论评论",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404029"
+        ],
+        "target": "/chinawriter/404029"
+      },
+      {
+        "title": "文史",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404057"
+        ],
+        "target": "/chinawriter/404057"
+      },
+      {
+        "title": "科幻",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404078"
+        ],
+        "target": "/chinawriter/404078"
+      },
+      {
+        "title": "书汇",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404058"
+        ],
+        "target": "/chinawriter/404058"
+      },
+      {
+        "title": "新作品",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015"
+        ],
+        "target": "/chinawriter/404015"
+      },
+      {
+        "title": "世界文坛",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404085"
+        ],
+        "target": "/chinawriter/404085"
+      },
+      {
+        "title": "民族文艺",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404086"
+        ],
+        "target": "/chinawriter/404086"
+      },
+      {
+        "title": "网络文学",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404022"
+        ],
+        "target": "/chinawriter/404022"
+      },
+      {
+        "title": "儿童文学",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404059"
+        ],
+        "target": "/chinawriter/404059"
+      },
+      {
+        "title": "会员 - 新发展会员名单",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403978/403979",
+          "/403978"
+        ],
+        "target": "/chinawriter/403978/403979"
+      },
+      {
+        "title": "会员 - 讣告",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403978/403981",
+          "/403978"
+        ],
+        "target": "/chinawriter/403978/403981"
+      },
+      {
+        "title": "文学奖项 - 其他文学奖项",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403973/419349",
+          "/403973"
+        ],
+        "target": "/chinawriter/403973/419349"
+      },
+      {
+        "title": "新闻 - 时政新闻",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403990/403991",
+          "/403990"
+        ],
+        "target": "/chinawriter/403990/403991"
+      },
+      {
+        "title": "新闻 - 中国作协",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403990/403993",
+          "/403990"
+        ],
+        "target": "/chinawriter/403990/403993"
+      },
+      {
+        "title": "新闻 - 主席",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403990/441519",
+          "/403990"
+        ],
+        "target": "/chinawriter/403990/441519"
+      },
+      {
+        "title": "新闻 - 党组书记",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403990/441520",
+          "/403990"
+        ],
+        "target": "/chinawriter/403990/441520"
+      },
+      {
+        "title": "新闻 - 各地文讯",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/403990/403994",
+          "/403990"
+        ],
+        "target": "/chinawriter/403990/403994"
+      },
+      {
+        "title": "艺术 - 新闻",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404002/404003",
+          "/404002"
+        ],
+        "target": "/chinawriter/404002/404003"
+      },
+      {
+        "title": "艺术 - 影视",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404002/419388",
+          "/404002"
+        ],
+        "target": "/chinawriter/404002/419388"
+      },
+      {
+        "title": "艺术 - 舞台",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404002/419389",
+          "/404002"
+        ],
+        "target": "/chinawriter/404002/419389"
+      },
+      {
+        "title": "艺术 - 人物",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404002/404005",
+          "/404002"
+        ],
+        "target": "/chinawriter/404002/404005"
+      },
+      {
+        "title": "艺术 - 展览",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404002/419390",
+          "/404002"
+        ],
+        "target": "/chinawriter/404002/419390"
+      },
+      {
+        "title": "艺术 - 书画",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404002/419391",
+          "/404002"
+        ],
+        "target": "/chinawriter/404002/419391"
+      },
+      {
+        "title": "理论评论 - 重要理论文章",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404029/419350",
+          "/404029"
+        ],
+        "target": "/chinawriter/404029/419350"
+      },
+      {
+        "title": "理论评论 - 理论热点",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404029/419351",
+          "/404029"
+        ],
+        "target": "/chinawriter/404029/419351"
+      },
+      {
+        "title": "理论评论 - 文学评论",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404029/404030",
+          "/404029"
+        ],
+        "target": "/chinawriter/404029/404030"
+      },
+      {
+        "title": "理论评论 - 创作谈",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404029/404032",
+          "/404029"
+        ],
+        "target": "/chinawriter/404029/404032"
+      },
+      {
+        "title": "理论评论 - 争鸣",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404029/404033",
+          "/404029"
+        ],
+        "target": "/chinawriter/404029/404033"
+      },
+      {
+        "title": "理论评论 - 综述",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404029/404034",
+          "/404029"
+        ],
+        "target": "/chinawriter/404029/404034"
+      },
+      {
+        "title": "理论评论 - 《中国当代文学研究》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404087/404988/425775",
+          "/404087/404988",
+          "/404087"
+        ],
+        "target": "/chinawriter/404087/404988/425775"
+      },
+      {
+        "title": "文史 - 文坛轶事",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404057/404063",
+          "/404057"
+        ],
+        "target": "/chinawriter/404057/404063"
+      },
+      {
+        "title": "文史 - 文史漫谈",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404057/442005",
+          "/404057"
+        ],
+        "target": "/chinawriter/404057/442005"
+      },
+      {
+        "title": "文史 - 重温经典",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404057/419384",
+          "/404057"
+        ],
+        "target": "/chinawriter/404057/419384"
+      },
+      {
+        "title": "文史 - 版本研究",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404057/419387",
+          "/404057"
+        ],
+        "target": "/chinawriter/404057/419387"
+      },
+      {
+        "title": "文史 - 名人手迹",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404057/419382",
+          "/404057"
+        ],
+        "target": "/chinawriter/404057/419382"
+      },
+      {
+        "title": "文史 - 茅盾文学奖获奖作家研究",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404087/404988/429369",
+          "/404087/404988",
+          "/404087"
+        ],
+        "target": "/chinawriter/404087/404988/429369"
+      },
+      {
+        "title": "科幻 - 动态",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404078/404079",
+          "/404078"
+        ],
+        "target": "/chinawriter/404078/404079"
+      },
+      {
+        "title": "科幻 - 评论",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404078/404080",
+          "/404078"
+        ],
+        "target": "/chinawriter/404078/404080"
+      },
+      {
+        "title": "科幻 - 作家印象",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404078/404081",
+          "/404078"
+        ],
+        "target": "/chinawriter/404078/404081"
+      },
+      {
+        "title": "科幻 - 作品",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404078/404083",
+          "/404078"
+        ],
+        "target": "/chinawriter/404078/404083"
+      },
+      {
+        "title": "科幻 - 科声幻影",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404078/404084",
+          "/404078"
+        ],
+        "target": "/chinawriter/404078/404084"
+      },
+      {
+        "title": "书汇 - 书摘",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404058/404067",
+          "/404058"
+        ],
+        "target": "/chinawriter/404058/404067"
+      },
+      {
+        "title": "书汇 - 图书排行",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404058/404069",
+          "/404058"
+        ],
+        "target": "/chinawriter/404058/404069"
+      },
+      {
+        "title": "新作品 - 小说",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/404017",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/404017"
+      },
+      {
+        "title": "新作品 - 诗歌",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/404020",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/404020"
+      },
+      {
+        "title": "新作品 - 散文",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/404018",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/404018"
+      },
+      {
+        "title": "新作品 - 纪实",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/404019",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/404019"
+      },
+      {
+        "title": "新作品 - 其他",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/419926",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/419926"
+      },
+      {
+        "title": "新作品 - 平台推荐",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/419789",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/419789"
+      },
+      {
+        "title": "新作品 - 本周之星",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/431511",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/431511"
+      },
+      {
+        "title": "新作品 - 2018年5月18日前原创作品",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404009"
+        ],
+        "target": "/chinawriter/404009"
+      },
+      {
+        "title": "新作品 - 《人民文学》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418925",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418925"
+      },
+      {
+        "title": "新作品 - 《诗刊》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418926",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418926"
+      },
+      {
+        "title": "新作品 - 《民族文学》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418928",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418928"
+      },
+      {
+        "title": "新作品 - 《收获》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418958",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418958"
+      },
+      {
+        "title": "新作品 - 《十月》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418956",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418956"
+      },
+      {
+        "title": "新作品 - 《小说选刊》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418929",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418929"
+      },
+      {
+        "title": "新作品 - 《北京文学》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418954",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418954"
+      },
+      {
+        "title": "新作品 - 《上海文学》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418962",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418962"
+      },
+      {
+        "title": "新作品 - 《天津文学》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/419004",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/419004"
+      },
+      {
+        "title": "新作品 - 《草原》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418989",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418989"
+      },
+      {
+        "title": "新作品 - 《黄河》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/426204",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/426204"
+      },
+      {
+        "title": "新作品 - 《江南》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418957",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418957"
+      },
+      {
+        "title": "新作品 - 《钟山》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418984",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418984"
+      },
+      {
+        "title": "新作品 - 《广州文艺》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/419881",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/419881"
+      },
+      {
+        "title": "新作品 - 《湖南文学》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/419156",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/419156"
+      },
+      {
+        "title": "新作品 - 《山西文学》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/419827",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/419827"
+      },
+      {
+        "title": "新作品 - 《花城》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418960",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418960"
+      },
+      {
+        "title": "新作品 - 《青年作家》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418967",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418967"
+      },
+      {
+        "title": "新作品 - 《雨花》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/419885",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/419885"
+      },
+      {
+        "title": "新作品 - 《红豆》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418993",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418993"
+      },
+      {
+        "title": "新作品 - 《长江文艺》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418961",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418961"
+      },
+      {
+        "title": "新作品 - 《中国作家》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418927",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418927"
+      },
+      {
+        "title": "新作品 - 《青年文学》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418979",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418979"
+      },
+      {
+        "title": "新作品 - 《美文》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418985",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418985"
+      },
+      {
+        "title": "新作品 - 《芙蓉》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418986",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418986"
+      },
+      {
+        "title": "新作品 - 《长城》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418987",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418987"
+      },
+      {
+        "title": "新作品 - 《福建文学》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/419003",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/419003"
+      },
+      {
+        "title": "新作品 - 《啄木鸟》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/435225",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/435225"
+      },
+      {
+        "title": "新作品 - 《芳草》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/424311",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/424311"
+      },
+      {
+        "title": "新作品 - 《小说月报》",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404015/416204/418963",
+          "/404015/416204",
+          "/404015"
+        ],
+        "target": "/chinawriter/404015/416204/418963"
+      },
+      {
+        "title": "世界文坛 - 视点",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404085/404090",
+          "/404085"
+        ],
+        "target": "/chinawriter/404085/404090"
+      },
+      {
+        "title": "世界文坛 - 译介",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404085/431803",
+          "/404085"
+        ],
+        "target": "/chinawriter/404085/431803"
+      },
+      {
+        "title": "世界文坛 - 作家印象",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404085/404091",
+          "/404085"
+        ],
+        "target": "/chinawriter/404085/404091"
+      },
+      {
+        "title": "世界文坛 - 文学评论",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404085/404092",
+          "/404085"
+        ],
+        "target": "/chinawriter/404085/404092"
+      },
+      {
+        "title": "世界文坛 - 影像艺术",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404085/404093",
+          "/404085"
+        ],
+        "target": "/chinawriter/404085/404093"
+      },
+      {
+        "title": "世界文坛 - 作品推介",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404085/404095",
+          "/404085"
+        ],
+        "target": "/chinawriter/404085/404095"
+      },
+      {
+        "title": "民族文艺 - 动态",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404086/404098",
+          "/404086"
+        ],
+        "target": "/chinawriter/404086/404098"
+      },
+      {
+        "title": "民族文艺 - 品评",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404086/404101",
+          "/404086"
+        ],
+        "target": "/chinawriter/404086/404101"
+      },
+      {
+        "title": "民族文艺 - 作家印象",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404086/404099",
+          "/404086"
+        ],
+        "target": "/chinawriter/404086/404099"
+      },
+      {
+        "title": "民族文艺 - 作品",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404086/404100",
+          "/404086"
+        ],
+        "target": "/chinawriter/404086/404100"
+      },
+      {
+        "title": "民族文艺 - 影像",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404086/404102",
+          "/404086"
+        ],
+        "target": "/chinawriter/404086/404102"
+      },
+      {
+        "title": "网络文学 - 动态",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404022/404023",
+          "/404022"
+        ],
+        "target": "/chinawriter/404022/404023"
+      },
+      {
+        "title": "网络文学 - 观察",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404022/404027",
+          "/404022"
+        ],
+        "target": "/chinawriter/404022/404027"
+      },
+      {
+        "title": "网络文学 - 访谈",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404022/404024",
+          "/404022"
+        ],
+        "target": "/chinawriter/404022/404024"
+      },
+      {
+        "title": "网络文学 - 中国网络小说排行榜",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404022/404028",
+          "/404022"
+        ],
+        "target": "/chinawriter/404022/404028"
+      },
+      {
+        "title": "儿童文学 - 视点",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404059/404071",
+          "/404059"
+        ],
+        "target": "/chinawriter/404059/404071"
+      },
+      {
+        "title": "儿童文学 - 文学评论",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404059/404072",
+          "/404059"
+        ],
+        "target": "/chinawriter/404059/404072"
+      },
+      {
+        "title": "儿童文学 - 作家印象",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404059/404073",
+          "/404059"
+        ],
+        "target": "/chinawriter/404059/404073"
+      },
+      {
+        "title": "儿童文学 - 作品推介",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404059/404075",
+          "/404059"
+        ],
+        "target": "/chinawriter/404059/404075"
+      },
+      {
+        "title": "儿童文学 - 动漫艺术",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-zuo-jia-wang-lan-mu",
+        "source": [
+          "/404059/404076",
+          "/404059"
+        ],
+        "target": "/chinawriter/404059/404076"
       }
     ]
   },
@@ -8427,7 +9461,7 @@
     "insider": [
       {
         "title": "Bullets",
-        "docs": "https://docs.rsshub.app/en/routes/finance#finology-insider",
+        "docs": "https://docs.rsshub.app/routes/finance#finology-insider",
         "source": [
           "/bullets"
         ],
@@ -8435,19 +9469,19 @@
       },
       {
         "title": "Category",
-        "docs": "https://docs.rsshub.app/en/routes/finance#finology-insider",
+        "docs": "https://docs.rsshub.app/routes/finance#finology-insider",
         "source": "/:category",
         "target": "/finology/:category"
       },
       {
         "title": "Most Viewed",
-        "docs": "https://docs.rsshub.app/en/routes/finance#finology-insider",
+        "docs": "https://docs.rsshub.app/routes/finance#finology-insider",
         "source": "/most-viewed",
         "target": "/finology/most-viewed/monthly"
       },
       {
         "title": "Trending Topic",
-        "docs": "https://docs.rsshub.app/en/routes/finance#finology-insider",
+        "docs": "https://docs.rsshub.app/routes/finance#finology-insider",
         "source": [
           "/tag/:topic"
         ],
@@ -8889,6 +9923,19 @@
       }
     ]
   },
+  "gamegene.cn": {
+    "_name": "游戏基因",
+    "news": [
+      {
+        "title": "资讯",
+        "docs": "https://docs.rsshub.app/routes/game#you-xi-ji-yin",
+        "source": [
+          "/news"
+        ],
+        "target": "/gamegene/news"
+      }
+    ]
+  },
   "gamer.com.tw": {
     "_name": "巴哈姆特電玩資訊站",
     "acg": [
@@ -9297,6 +10344,19 @@
           "/"
         ],
         "target": "/gocn/jobs"
+      }
+    ]
+  },
+  "gogoanimehd.io": {
+    "_name": "Gogoanime",
+    "developer": [
+      {
+        "title": "Recent Releases",
+        "docs": "https://docs.rsshub.app/routes/anime#gogoanimehd",
+        "source": [
+          "/"
+        ],
+        "target": "/gogoanimehd/recent-releases"
       }
     ]
   },
@@ -9777,6 +10837,23 @@
           "/"
         ],
         "target": "/gov/chongqing/rsks"
+      },
+      {
+        "title": "重庆事业单位公开招聘",
+        "docs": "https://docs.rsshub.app/routes/government#chong-qing-shi-ren-min-zheng-fu",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/chongqing/sydwgkzp"
+      }
+    ],
+    "gzw": [
+      {
+        "title": "国有资产监督管理委员会",
+        "docs": "https://docs.rsshub.app/routes/government#chong-qing-shi-ren-min-zheng-fu-guo-you-zi-chan-jian-du-guan-li-wei-yuan-hui",
+        "source": [
+          "/:category*"
+        ]
       }
     ]
   },
@@ -10623,7 +11700,7 @@
     ".": [
       {
         "title": "Articles",
-        "docs": "https://docs.rsshub.app/en/routes/new-media#grist",
+        "docs": "https://docs.rsshub.app/routes/new-media#grist",
         "source": [
           "/articles/"
         ],
@@ -10631,23 +11708,36 @@
       },
       {
         "title": "Featured",
-        "docs": "https://docs.rsshub.app/en/routes/new-media#grist",
+        "docs": "https://docs.rsshub.app/routes/new-media#grist",
         "source": "/",
         "target": "/grist/featured"
       },
       {
         "title": "Series",
-        "docs": "https://docs.rsshub.app/en/routes/new-media#grist",
+        "docs": "https://docs.rsshub.app/routes/new-media#grist",
         "source": "/series/:series",
         "target": "/grist/series/:series"
       },
       {
         "title": "Topic",
-        "docs": "https://docs.rsshub.app/en/routes/new-media#grist",
+        "docs": "https://docs.rsshub.app/routes/new-media#grist",
         "source": [
           "/:topic"
         ],
         "target": "/grist/topic/:topic"
+      }
+    ]
+  },
+  "grubstreet.com": {
+    "_name": "Grub Street",
+    ".": [
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/new-media#grub-street",
+        "source": [
+          "/"
+        ],
+        "target": "/grubstreet"
       }
     ]
   },
@@ -10843,6 +11933,17 @@
         "target": "/gxmzu/aitzgg"
       }
     ],
+    "library": [
+      {
+        "title": "图书馆最新消息",
+        "docs": "https://docs.rsshub.app/routes/unversity#guang-xi-min-zu-da-xue-tu-shu-guan-zui-xin-xiao-xi",
+        "source": [
+          "/news/news_list.jsp",
+          "/"
+        ],
+        "target": "/gxmzu/libzxxx"
+      }
+    ],
     "yjs": [
       {
         "title": "研究生院招生公告",
@@ -10973,6 +12074,19 @@
         "source": [
           "/:profile"
         ]
+      }
+    ]
+  },
+  "hackyournews.com": {
+    "_name": "HackYourNews",
+    ".": [
+      {
+        "title": "Index",
+        "docs": "https://docs.rsshub.app/routes/programming#hack-your-news",
+        "source": [
+          "/"
+        ],
+        "target": "/hackyournews"
       }
     ]
   },
@@ -12109,7 +13223,7 @@
     ".": [
       {
         "title": "外汇牌价",
-        "docs": "https://docs.rsshub.app/other#zhong-guo-gong-shang-yin-hang",
+        "docs": "https://docs.rsshub.app/routes/other#zhong-guo-gong-shang-yin-hang",
         "source": [
           "/column/1438058341489590354.html"
         ],
@@ -14483,6 +15597,18 @@
       }
     ]
   },
+  "kamen-rider-official.com": {
+    "_name": "仮面ライダ",
+    ".": [
+      {
+        "title": "最新情報",
+        "docs": "https://docs.rsshub.app/routes/new-media#fan-mian-%E3%83%A9%E3%82%A4%E3%83%80-zui-xin-qing-bao",
+        "source": [
+          "/news_articles"
+        ]
+      }
+    ]
+  },
   "kantarworldpanel.com": {
     "_name": "Kantar Worldpanel",
     ".": [
@@ -15404,7 +16530,7 @@
     ".": [
       {
         "title": "频道",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/:channel",
           "/"
@@ -15412,7 +16538,7 @@
       },
       {
         "title": "标签",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/tag/:id",
           "/"
@@ -15421,7 +16547,7 @@
       },
       {
         "title": "专题",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/series/:id",
           "/"
@@ -15430,7 +16556,7 @@
       },
       {
         "title": "搜索",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/search/:keyword",
           "/"
@@ -15439,7 +16565,7 @@
       },
       {
         "title": "60秒读懂世界",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/kuaixun",
           "/"
@@ -15448,7 +16574,7 @@
       },
       {
         "title": "网络营销",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/:channel",
           "/"
@@ -15588,6 +16714,19 @@
         "source": [
           "/schedule/"
         ]
+      }
+    ]
+  },
+  "lsnu.edu.cn": {
+    "_name": "乐山师范学院",
+    ".": [
+      {
+        "title": "教学部通知公告",
+        "docs": "https://docs.rsshub.app/routes/university#le-shan-shi-fan-xue-yuan",
+        "source": [
+          "/"
+        ],
+        "target": "/lsnu/jiaowc/tzgg"
       }
     ]
   },
@@ -16547,14 +17686,269 @@
   },
   "mydrivers.com": {
     "_name": "快科技",
-    ".": [
+    "m": [
       {
-        "title": "新闻",
-        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-xin-wen",
+        "title": "最新",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-zui-xin",
         "source": [
           "/"
         ],
-        "target": "/mydrivers/:type?/:id?"
+        "target": "/mydrivers/new"
+      },
+      {
+        "title": "热门",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-re-men",
+        "source": [
+          "/"
+        ],
+        "target": "/mydrivers/hot"
+      },
+      {
+        "title": "发布会",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fa-bu-hui",
+        "source": [
+          "/"
+        ],
+        "target": "/mydrivers/zhibo"
+      },
+      {
+        "title": "排行",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-pai-hang",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/rank"
+      },
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ]
+      },
+      {
+        "title": "板块 - 电脑",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/bcid/801"
+      },
+      {
+        "title": "板块 - 手机",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/bcid/802"
+      },
+      {
+        "title": "板块 - 汽车",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/bcid/807"
+      },
+      {
+        "title": "板块 - 业界",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/bcid/803"
+      },
+      {
+        "title": "板块 - 游戏",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/bcid/806"
+      },
+      {
+        "title": "话题 - 科学",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/tid/1000"
+      },
+      {
+        "title": "话题 - 排行",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/tid/1001"
+      },
+      {
+        "title": "话题 - 评测",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/tid/1002"
+      },
+      {
+        "title": "话题 - 一图",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/tid/1003"
+      },
+      {
+        "title": "品牌 - 安卓",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/121"
+      },
+      {
+        "title": "品牌 - 阿里",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/270"
+      },
+      {
+        "title": "品牌 - 微软",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/90"
+      },
+      {
+        "title": "品牌 - 百度",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/67"
+      },
+      {
+        "title": "品牌 - PS5",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/6950"
+      },
+      {
+        "title": "品牌 - Xbox",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/194"
+      },
+      {
+        "title": "品牌 - 华为",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/136"
+      },
+      {
+        "title": "品牌 - 小米",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/9355"
+      },
+      {
+        "title": "品牌 - VIVO",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/288"
+      },
+      {
+        "title": "品牌 - 三星",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/154"
+      },
+      {
+        "title": "品牌 - 魅族",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/140"
+      },
+      {
+        "title": "品牌 - 一加",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/385"
+      },
+      {
+        "title": "品牌 - 比亚迪",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/770"
+      },
+      {
+        "title": "品牌 - 小鹏",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/7259"
+      },
+      {
+        "title": "品牌 - 蔚来",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/7318"
+      },
+      {
+        "title": "品牌 - 理想",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/12947"
+      },
+      {
+        "title": "品牌 - 奔驰",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/429"
+      },
+      {
+        "title": "品牌 - 宝马",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/461"
+      },
+      {
+        "title": "品牌 - 大众",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuai-ke-ji-fen-lei",
+        "source": [
+          "/newsclass.aspx"
+        ],
+        "target": "/mydrivers/icid/481"
       }
     ]
   },
@@ -16967,6 +18361,20 @@
       }
     ]
   },
+  "mymusicsheet.com": {
+    "_name": "MyMusicSheet",
+    ".": [
+      {
+        "title": "User Sheets",
+        "docs": "https://docs.rsshub.app/routes/shopping#mymusicsheet-user-sheets",
+        "source": [
+          ":username/*",
+          "/:username"
+        ],
+        "target": "/mymusicsheet/user/sheets/:username"
+      }
+    ]
+  },
   "mysql.com": {
     "_name": "MySQL",
     "dev": [
@@ -17222,6 +18630,19 @@
       }
     ]
   },
+  "netflav.com": {
+    "_name": "Netflav",
+    ".": [
+      {
+        "title": "Index",
+        "docs": "https://docs.rsshub.app/multimedia#netflav",
+        "source": [
+          "/"
+        ],
+        "target": "/netflav"
+      }
+    ]
+  },
   "neu.edu.cn": {
     "_name": "东北大学",
     "neunews": [
@@ -17441,6 +18862,36 @@
           "/nhkworld/:lang/news/"
         ],
         "target": "/nhk/news/:lang"
+      }
+    ]
+  },
+  "niaogebiji.com": {
+    "_name": "鸟哥笔记",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/routes/new-media#niao-ge-bi-ji",
+        "source": [
+          "/"
+        ],
+        "target": "/niaogebiji"
+      },
+      {
+        "title": "今日事",
+        "docs": "https://docs.rsshub.app/routes/new-media#niao-ge-bi-ji",
+        "source": [
+          "/",
+          "/bulletin"
+        ],
+        "target": "/niaogebiji"
+      },
+      {
+        "title": "分类目录",
+        "docs": "https://docs.rsshub.app/routes/new-media#niao-ge-bi-ji",
+        "source": [
+          "/cat/:cat"
+        ],
+        "target": "/niaogebiji/cat/:cat"
       }
     ]
   },
@@ -18660,7 +20111,7 @@
     ".": [
       {
         "title": "关键词搜索",
-        "docs": "https://docs.rsshub.app/anime.htm#an-の3dエロ-dong-hua-oreno3d-guan-jian-ci-sou-suo",
+        "docs": "https://docs.rsshub.app/routes/anime#an-の3dエロ-dong-hua-oreno3d-guan-jian-ci-sou-suo",
         "source": [
           "/search"
         ]
@@ -18743,6 +20194,16 @@
         "source": [
           "/explore"
         ]
+      }
+    ]
+  },
+  "ppy.sh": {
+    "_name": "osu!",
+    "osu": [
+      {
+        "title": "Beatmap Pack",
+        "docs": "https://docs.rsshub.app/routes/game#osu-beatmap-packs",
+        "source": "/beatmaps/packs"
       }
     ]
   },
@@ -20647,6 +22108,13 @@
         "target": "/scut/seie/news_center"
       },
       {
+        "title": "机械与汽车工程学院 - 通知公告",
+        "docs": "https://docs.rsshub.app/routes/university#hua-nan-li-gong-da-xue",
+        "source": [
+          "/smae/:category/list.htm"
+        ]
+      },
+      {
         "title": "研究生院通知公告",
         "docs": "https://docs.rsshub.app/routes/university#hua-nan-li-gong-da-xue",
         "source": [
@@ -22464,6 +23932,16 @@
       }
     ]
   },
+  "sourceforge.net": {
+    "_name": "SourceForge",
+    "www": [
+      {
+        "title": "Software",
+        "docs": "https://docs.rsshub.app/routes/program-update#sourceforge",
+        "source": "/directory"
+      }
+    ]
+  },
   "nfapp.southcn.com": {
     "_name": "南方网",
     ".": [
@@ -22551,6 +24029,19 @@
           "/"
         ],
         "target": "/sputniknews/:category/:language"
+      }
+    ]
+  },
+  "sqmc.edu.cn": {
+    "_name": "新乡医学院三全学院",
+    ".": [
+      {
+        "title": "官网信息",
+        "docs": "https://docs.rsshub.app/routes/university#xin-xiang-yi-xue-yuan-san-quan-xue-yuan",
+        "source": [
+          "/:category/list.htm"
+        ],
+        "target": "/sqmc/www/:category?"
       }
     ]
   },
@@ -22901,6 +24392,121 @@
           "/"
         ],
         "target": "/supchina/podcasts"
+      }
+    ]
+  },
+  "surfshark.com": {
+    "_name": "Surfshark",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/blog/:category*"
+        ]
+      },
+      {
+        "title": "Blog - Cybersecurity",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/cybersecurity"
+        ],
+        "target": "/surfshark/blog/cybersecurity"
+      },
+      {
+        "title": "Blog - All things VPN",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/all-things-vpn"
+        ],
+        "target": "/surfshark/blog/all-things-vpn"
+      },
+      {
+        "title": "Blog - Internet censorship",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/internet-censorship"
+        ],
+        "target": "/surfshark/blog/internet-censorship"
+      },
+      {
+        "title": "Blog - Entertainment",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/entertainment"
+        ],
+        "target": "/surfshark/blog/entertainment"
+      },
+      {
+        "title": "Blog - News",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/news"
+        ],
+        "target": "/surfshark/blog/news"
+      },
+      {
+        "title": "Blog - Internet Security",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/cybersecurity/internet-security",
+          "/blog/cybersecurity"
+        ],
+        "target": "/surfshark/blog/cybersecurity/internet-security"
+      },
+      {
+        "title": "Blog - Mobile Security",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/cybersecurity/mobile-security",
+          "/blog/cybersecurity"
+        ],
+        "target": "/surfshark/blog/cybersecurity/mobile-security"
+      },
+      {
+        "title": "Blog - Identity Protection",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/cybersecurity/identity-protection",
+          "/blog/cybersecurity"
+        ],
+        "target": "/surfshark/blog/cybersecurity/identity-protection"
+      },
+      {
+        "title": "Blog - Phishing",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/cybersecurity/phishing",
+          "/blog/cybersecurity"
+        ],
+        "target": "/surfshark/blog/cybersecurity/phishing"
+      },
+      {
+        "title": "Blog - Must-knows",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/all-things-vpn/must-knows",
+          "/blog/all-things-vpn"
+        ],
+        "target": "/surfshark/blog/all-things-vpn/must-knows"
+      },
+      {
+        "title": "Blog - Technology",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/all-things-vpn/technology",
+          "/blog/all-things-vpn"
+        ],
+        "target": "/surfshark/blog/all-things-vpn/technology"
+      },
+      {
+        "title": "Blog - Tips & Advice",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/all-things-vpn/tips-and-advice",
+          "/blog/all-things-vpn"
+        ],
+        "target": "/surfshark/blog/all-things-vpn/tips-and-advice"
       }
     ]
   },
@@ -23462,12 +25068,21 @@
     ".": [
       {
         "title": "价格",
-        "docs": "https://docs.rsshub.app/routes/shopping#te-si-la-zhong-guo",
+        "docs": "https://docs.rsshub.app/routes/shopping#te-si-la-zhong-guo-jia-ge",
         "source": [
           "/model3/design",
           "/"
         ],
         "target": "/tesla/price"
+      }
+    ],
+    "cx": [
+      {
+        "title": "权益中心",
+        "docs": "https://docs.rsshub.app/routes/shopping#te-si-la-zhong-guo-quan-yi-zhong-xin",
+        "source": [
+          "/user-right/list/:category"
+        ]
       }
     ]
   },
@@ -23879,7 +25494,7 @@
     ".": [
       {
         "title": "日历",
-        "docs": "https://docs.rsshub.app/#thbwiki",
+        "docs": "https://docs.rsshub.app/routes/anime#thbwiki",
         "source": [
           "/",
           "/日程表"
@@ -25926,6 +27541,35 @@
       }
     ]
   },
+  "whu.edu.cn": {
+    "_name": "武汉大学",
+    "cs": [
+      {
+        "title": "计算机学院公告",
+        "docs": "https://docs.rsshub.app/routes/university#wu-han-da-xue"
+      }
+    ],
+    "gs": [
+      {
+        "title": "研究生院",
+        "docs": "https://docs.rsshub.app/routes/university#wu-han-da-xue-yan-jiu-sheng-yuan",
+        "source": [
+          "/index.htm",
+          "/"
+        ],
+        "target": "/whu/gs"
+      }
+    ],
+    "news": [
+      {
+        "title": "新闻网",
+        "docs": "https://docs.rsshub.app/routes/university#wu-han-da-xue",
+        "source": [
+          "/*path"
+        ]
+      }
+    ]
+  },
   "wikinews.org": {
     "_name": "维基新闻",
     "zh": [
@@ -26161,6 +27805,35 @@
       }
     ]
   },
+  "x-mol.com": {
+    "_name": "X-MOL",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/study#x-mol",
+        "source": [
+          "/news/:area/tag/:tag"
+        ],
+        "target": "/x-mol/news/:tag"
+      },
+      {
+        "title": "News Index",
+        "docs": "https://docs.rsshub.app/study#x-mol",
+        "source": [
+          "/news/index"
+        ],
+        "target": "/x-mol/news"
+      },
+      {
+        "title": "Journal",
+        "docs": "https://docs.rsshub.app/journal#x-mol",
+        "source": [
+          "/paper/:area/tag/:type/journal/:magazine"
+        ],
+        "target": "/x-mol/paper/geo/:type/:magazine"
+      }
+    ]
+  },
   "x6d.com": {
     "_name": "小刀娱乐网",
     "xd": [
@@ -26263,7 +27936,7 @@
     ".": [
       {
         "title": "首页帖子",
-        "docs": "https://docs.rsshub.app/bbs#xiao-te-she-qu",
+        "docs": "https://docs.rsshub.app/routes/bbs#xiao-te-she-qu",
         "source": [
           "/"
         ],
@@ -26322,6 +27995,25 @@
         "title": "专辑",
         "docs": "https://docs.rsshub.app/routes/multimedia#xi-ma-la-ya",
         "source": "/:type/:id"
+      }
+    ]
+  },
+  "xinpianchang.com": {
+    "_name": "新片场",
+    ".": [
+      {
+        "title": "发现",
+        "docs": "https://docs.rsshub.app/routes/new-media#xin-pian-chang-fa-xian",
+        "source": [
+          "/discover/:params"
+        ]
+      },
+      {
+        "title": "排行榜",
+        "docs": "https://docs.rsshub.app/routes/new-media#xin-pian-chang-pai-hang-bang",
+        "source": [
+          "/rank/:params"
+        ]
       }
     ]
   },
@@ -26432,6 +28124,18 @@
           "/"
         ],
         "target": "/xmnn/epaper/:id"
+      }
+    ]
+  },
+  "xmut.edu.cn": {
+    "_name": "厦门理工学院",
+    "jwc": [
+      {
+        "title": "教务处",
+        "docs": "https://docs.rsshub.app/routes/university#xia-men-li-gong-da-xue",
+        "source": [
+          "/:category"
+        ]
       }
     ]
   },
@@ -27032,12 +28736,12 @@
     ".": [
       {
         "title": "影视资讯",
-        "docs": "https://docs.rsshub.app/multimedia#ren-ren-ying-shi",
+        "docs": "https://docs.rsshub.app/routes/multimedia#ren-ren-ying-shi",
         "source": "/article"
       },
       {
         "title": "今日播出",
-        "docs": "https://docs.rsshub.app/multimedia#ren-ren-ying-shi",
+        "docs": "https://docs.rsshub.app/routes/multimedia#ren-ren-ying-shi",
         "source": [
           "/tv/schedule",
           "/"
@@ -27450,11 +29154,12 @@
     ],
     "analy": [
       {
-        "title": "TOP 20",
+        "title": "上周热门 TOP 20",
         "docs": "https://docs.rsshub.app/routes/blog#zhu-bai",
         "source": [
           "/"
-        ]
+        ],
+        "target": "/zhubai/top20"
       }
     ]
   },
