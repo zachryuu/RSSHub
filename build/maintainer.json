@@ -922,6 +922,9 @@
     "/bookfere/:category": [
         "OdinZhang"
     ],
+    "/booru/mmda/tags/:tags?": [
+        "N78Wy"
+    ],
     "/brave/latest": [
         "nczitzk"
     ],
@@ -3933,7 +3936,7 @@
     "/mygopen/:label?": [
         "nczitzk"
     ],
-    "/mymusicsheet/user/sheets/:username/:iso?": [
+    "/mymusicsheet/user/sheets/:username/:iso?/:freeOnly?": [
         "Freddd13"
     ],
     "/mysql/release/:version?": [
