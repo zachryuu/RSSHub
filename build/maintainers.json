@@ -485,15 +485,12 @@
   "/auto-stats/:category?": [
     "nczitzk"
   ],
-  "/baai/hub/comments": [
-    "TonyRL"
-  ],
   "/baai/hub/events": [
     "TonyRL"
   ],
-  "/baai/hub/:tagId/:sort?/:range?": [],
-  "/baai/hub/:tagId/:sort?": [],
-  "/baai/hub/:sort?": [],
+  "/baai/hub/:tagId?/:sort?/:range?": [
+    "TonyRL"
+  ],
   "/backlinko/blog": [
     "TonyRL"
   ],
@@ -826,6 +823,9 @@
   "/bnu/lib/:category?": [
     "TonyRL"
   ],
+  "/bnu/mba/:category{.+}?": [
+    "nczitzk"
+  ],
   "/boc/whpj/:format?": [
     "LogicJake",
     "HenryQW"
@@ -866,6 +866,9 @@
   ],
   "/bupt/rczp": [
     "nczitzk"
+  ],
+  "/byau/news/:type_id": [
+    "ueiu"
   ],
   "/byteclicks/": [
     "TonyRL"
@@ -1113,6 +1116,9 @@
   "/chuanliu/nice": [
     "nczitzk"
   ],
+  "/chub/characters": [
+    "flameleaf"
+  ],
   "/cib/whpj/:format?": [
     "Qixingchen"
   ],
@@ -1221,6 +1227,9 @@
   "/coindesk/consensus-magazine": [
     "jameshih"
   ],
+  "/colamanga/:id": [
+    "machsix"
+  ],
   "/comicat/search/:keyword": [
     "Cyang39"
   ],
@@ -1262,6 +1271,9 @@
   ],
   "/coomer/posts": [
     "nczitzk"
+  ],
+  "/copernicium/:category": [
+    "dzx-dzx"
   ],
   "/copymanga/comic/:id/:chapterCnt?": [
     "btdwv",
@@ -1376,6 +1388,9 @@
   ],
   "/daily/upvoted": [
     "Rjnishant530"
+  ],
+  "/daily/user/:userId": [
+    "TonyRL"
   ],
   "/damai/activity/:city/:category/:subcategory/:keyword?": [
     "hoilc"
@@ -1663,7 +1678,8 @@
     "nczitzk"
   ],
   "/douyu/room/:id": [
-    "DIYgod"
+    "DIYgod",
+    "ChaosTong"
   ],
   "/dribbble/keyword/:keyword": [
     "DIYgod",
@@ -1733,6 +1749,9 @@
   ],
   "/ecnu/acm/contest/:category?": [
     "a180285"
+  ],
+  "/ecnu/jwc": [
+    "markbang"
   ],
   "/ecnu/yjs": [
     "shengmaosu"
@@ -1814,6 +1833,9 @@
   ],
   "/famitsu/category/:category?": [
     "TonyRL"
+  ],
+  "/fanbox/:creator": [
+    "KarasuShin"
   ],
   "/fansly/user/:username": [
     "TonyRL"
@@ -2203,7 +2225,9 @@
   "/google/search/:keyword/:language?": [
     "CaoMeiYouRen"
   ],
-  "/gov/anhui/kjt/*": [],
+  "/gov/ah/kjt/:category{.+}?": [
+    "nczitzk"
+  ],
   "/gov/beijing/bjedu/gh/:urlPath?": [
     "TonyRL"
   ],
@@ -2459,6 +2483,9 @@
   "/gov/zhengce/zhengceku/:department": [
     "zxx-457"
   ],
+  "/gov/zj/search/:websiteid?/:word/:cateid?": [
+    "HaoyuLee"
+  ],
   "/greasyfork/scripts/:script/feedback": [
     "miles170"
   ],
@@ -2614,10 +2641,6 @@
     "moke8",
     "nczitzk"
   ],
-  "/hellogithub/:sort?/:id?": [
-    "moke8",
-    "nczitzk"
-  ],
   "/hellogithub/ranking/:type?": [
     "moke8",
     "nczitzk"
@@ -2628,11 +2651,13 @@
   ],
   "/hellogithub/month": [
     "moke8",
-    "nczitzk"
+    "nczitzk",
+    "CaoMeiYouRen"
   ],
   "/hellogithub/volume": [
     "moke8",
-    "nczitzk"
+    "nczitzk",
+    "CaoMeiYouRen"
   ],
   "/hex-rays/news": [
     "hellodword ",
@@ -2892,6 +2917,9 @@
   "/ieee/journal/:journal/recent/:sortType?": [],
   "/ieee-security/security-privacy": [
     "ZeddYu"
+  ],
+  "/iehou/:category?": [
+    "nczitzk"
   ],
   "/ielts/": [
     "zenxds"
@@ -3267,6 +3295,9 @@
   "/konghq/blog-posts": [
     "piglei"
   ],
+  "/kpmg/insights/:lang?": [
+    "LogicJake"
+  ],
   "/kuaidi100/track/:number/:id/:phone?": [
     "NeverBehave"
   ],
@@ -3339,6 +3370,9 @@
   "/lfsyd/user/:id?": [
     "auto-bot-ty"
   ],
+  "/lianxh/:category?": [
+    "nczitzk"
+  ],
   "/lifeweek/channel/:id": [],
   "/lifeweek/tag/:id": [],
   "/lightnovel/:keywords/:security_key?": [
@@ -3350,7 +3384,10 @@
   "/line/today/:edition?/:tab?": [
     "nczitzk"
   ],
-  "/linkedin/jobs/:job_types/:exp_levels/:keywords?": [],
+  "/linkedin/jobs/:job_types/:exp_levels/:keywords?/:routeParams?": [
+    "BrandNewLifeJackie26",
+    "zhoukuncheng"
+  ],
   "/linkedin/cn/jobs/:keywords?": [
     "bigfei"
   ],
@@ -3472,6 +3509,9 @@
     "TonyRL"
   ],
   "/magazinelib/latest-magazine/:query?": [
+    "EthanWng97"
+  ],
+  "/magnumphotos/magazine": [
     "EthanWng97"
   ],
   "/mail/imap/:email/:folder{.+}?": [],
@@ -4130,6 +4170,15 @@
   ],
   "/oilchem/:type?/:category?/:subCategory?": [
     "nczitzk"
+  ],
+  "/olevod/vod/:id": [
+    "fang63625"
+  ],
+  "/olevod/vodlist": [
+    "fang63625"
+  ],
+  "/ollama/library": [
+    "Nick22nd"
   ],
   "/oncc/:language/:channel?": [
     "Fatpandac"
@@ -4990,7 +5039,9 @@
   "/sicau/zsjy/:category?": [
     "nczitzk"
   ],
-  "/sigsac/ccs": [],
+  "/sigsac/ccs": [
+    "ZeddYu"
+  ],
   "/simpleinfo/:category?": [
     "haukeng"
   ],
@@ -5072,7 +5123,7 @@
   "/sogou/search/:keyword": [
     "CaoMeiYouRen"
   ],
-  "/sohu/mp/:id": [
+  "/sohu/mp/:xpt": [
     "HenryQW"
   ],
   "/solidot/:type?": [
@@ -5198,6 +5249,9 @@
   ],
   "/stdaily/digitalpaper": [
     "lyqluis"
+  ],
+  "/steam/appcommunityfeed/:appid/:routeParams?": [
+    "NyaaaDoge"
   ],
   "/steam/search/:params": [
     "moppman"
@@ -5442,9 +5496,6 @@
     "Fatpandac",
     "jameshih"
   ],
-  "/thecatcity/:term?": [
-    "TonyRL"
-  ],
   "/thecover/channel/:id?": [
     "yuxinliu-alex"
   ],
@@ -5493,6 +5544,10 @@
   ],
   "/thepaper/839studio": [
     "umm233"
+  ],
+  "/thepetcity/:term?": [
+    "TonyRL",
+    "bigfei"
   ],
   "/theverge/:hub?": [
     "HenryQW",
@@ -5609,6 +5664,9 @@
   ],
   "/trow/portal": [
     "shiningdracon"
+  ],
+  "/ttv/:category?": [
+    "dzx-dzx"
   ],
   "/tvb/news/:category?/:language?": [
     "nczitzk"
@@ -5759,6 +5817,9 @@
   ],
   "/upc/jsj/:type": [
     "Veagau"
+  ],
+  "/upc/jwc/:type?": [
+    "sddzhyc"
   ],
   "/upc/main/:type": [
     "Veagau"
@@ -5983,6 +6044,12 @@
   "/weibo/search/hot/:fulltext?": [
     "xyqfer",
     "shinemoon"
+  ],
+  "/wellcee/rent/:city/:district?": [
+    "TonyRL"
+  ],
+  "/wellcee/support-city": [
+    "TonyRL"
   ],
   "/wenku8/chapter/:id": [
     "zsakvo"
@@ -6264,6 +6331,9 @@
   "/yangtzeu/dongke/*": [],
   "/ycwb/:node": [
     "TimWu007"
+  ],
+  "/yenpress/series/:name": [
+    "TonyRL"
   ],
   "/ygkkk/": [
     "cnkmmk"
@@ -6573,6 +6643,12 @@
   ],
   "/zrblog/": [
     "cnkmmk"
+  ],
+  "/zsxq/group/:id/:scope?": [
+    "KarasuShin"
+  ],
+  "/zsxq/user/:id": [
+    "KarasuShin"
   ],
   "/zuel/notice": [
     "nczitzk"
