@@ -650,6 +650,9 @@
   "/bilibili/bangumi/media/:mediaid": [
     "DIYgod"
   ],
+  "/bilibili/precious/:disableEmbed?": [
+    "liuyuhe666"
+  ],
   "/bilibili/user/coin/:uid/:disableEmbed?": [
     "DIYgod"
   ],
@@ -802,6 +805,9 @@
   "/bitbucket/tags/:workspace/:repo_slug": [
     "AuroraDysis"
   ],
+  "/bitget/announcement/:type/:lang?": [
+    "YukiCoco"
+  ],
   "/bitmovin/blog": [
     "elxy"
   ],
@@ -942,6 +948,9 @@
   ],
   "/bulianglin/": [
     "cnkmmk"
+  ],
+  "/bupt/jwc/:type": [
+    "Yoruet"
   ],
   "/bupt/rczp": [
     "nczitzk"
@@ -1624,6 +1633,10 @@
     "TonyRL"
   ],
   "/discourse/:configId/notifications/:fulltext?": [],
+  "/discourse/:configId/official/:path{.+}": [
+    "Raikyou",
+    "dzx-dzx"
+  ],
   "/discourse/:configId/posts": [
     "dzx-dzx"
   ],
@@ -1727,6 +1740,9 @@
   ],
   "/douban/event/hot/:locationId": [
     "xyqfer"
+  ],
+  "/douban/movie/coming": [
+    "reonokiy"
   ],
   "/douban/bookstore": [
     "xyqfer"
@@ -2092,7 +2108,8 @@
     "nczitzk"
   ],
   "/follow/profile/:uid": [
-    "KarasuShin"
+    "KarasuShin",
+    "DIYgod"
   ],
   "/followin/:categoryId?/:lang?": [
     "TonyRL"
@@ -2240,6 +2257,9 @@
   "/gdsrx/:id?": [],
   "/gdut/oa_news/:type?": [
     "jim-kirisame"
+  ],
+  "/geekpark/:column?": [
+    "nczitzk"
   ],
   "/gelonghui/home/:tag?": [
     "TonyRL"
@@ -3841,6 +3861,9 @@
     "EthanWng97"
   ],
   "/mail/imap/:email/:folder{.+}?": [],
+  "/malaysiakini/:lang/:category?": [
+    "quiniapiezoelectricity"
+  ],
   "/mangadex/:id/:lang?": [
     "vzz64"
   ],
@@ -3905,6 +3928,9 @@
     "ImSingee"
   ],
   "/medsci/:sid?/:tid?": [
+    "nczitzk"
+  ],
+  "/meishichina/recipe/:category{.+}?": [
     "nczitzk"
   ],
   "/meituan/tech": [
@@ -4716,6 +4742,9 @@
   "/paulgraham/": [
     "Maecenas",
     "nczitzk"
+  ],
+  "/pconline/focus/:category?": [
+    "CH563"
   ],
   "/penguin-random-house/articles": [
     "StevenRCE0"
@@ -6116,12 +6145,15 @@
     "Fatpandac"
   ],
   "/tju/cic/:type?": [
+    "AlanZeng423",
     "SuperPung"
   ],
   "/tju/news/:type?": [
+    "AlanZeng423",
     "SuperPung"
   ],
   "/tju/oaa/:type?": [
+    "AlanZeng423",
     "AmosChenYQ",
     "SuperPung"
   ],
