@@ -1127,6 +1127,9 @@
   "/bnext/": [
     "johan456789"
   ],
+  "/bntnews/:category?": [
+    "iamsnn"
+  ],
   "/bnu/bs/:category?": [
     "nczitzk"
   ],
@@ -1294,6 +1297,9 @@
   "/camchina/:id?": [
     "nczitzk"
   ],
+  "/canada.ca/news/:lang/:department?": [
+    "elibroftw"
+  ],
   "/cankaoxiaoxi/column/:id?": [
     "yuxinliu-alex",
     "nczitzk"
@@ -1316,6 +1322,9 @@
   ],
   "/cara/timeline/:user": [
     "KarasuShin"
+  ],
+  "/carousell/:region/:keyword": [
+    "TonyRL"
   ],
   "/cartoonmad/comic/:id": [
     "KellyHwong"
@@ -2183,6 +2192,9 @@
     "nczitzk"
   ],
   "/dgtle/news/:id?": [
+    "nczitzk"
+  ],
+  "/dgtle/tag/:id": [
     "nczitzk"
   ],
   "/dgtle/video": [
@@ -7012,6 +7024,9 @@
     "nczitzk",
     "Fatpandac"
   ],
+  "/readsomethingwonderful/": [
+    "ttttmr"
+  ],
   "/readwise/list/:routeParams?": [
     "xbot"
   ],
@@ -8044,6 +8059,9 @@
   "/techflowpost/express": [
     "nczitzk"
   ],
+  "/techflowpost/featured/:category?": [
+    "zhenlohuang"
+  ],
   "/techflowpost/": [
     "nczitzk"
   ],
@@ -8134,6 +8152,9 @@
     "Fatpandac",
     "jameshih",
     "DIYgod"
+  ],
+  "/thebrain/blog": [
+    "nczitzk"
   ],
   "/thecover/channel/:id?": [
     "yuxinliu-alex"

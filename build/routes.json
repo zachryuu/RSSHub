@@ -10074,6 +10074,7 @@
           "programming"
         ],
         "example": "/anthropic/engineering",
+        "parameters": {},
         "radar": [
           {
             "source": [
@@ -18333,6 +18334,39 @@
     "url": "bnext.com.tw",
     "lang": "zh-TW"
   },
+  "bntnews": {
+    "routes": {
+      "/:category?": {
+        "path": "/:category?",
+        "categories": [
+          "new-media"
+        ],
+        "example": "/bntnews/bnt003000000",
+        "parameters": {
+          "category": "Category ID, see table below, default to Now (bnt008000000)"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "Category",
+        "maintainers": [
+          "iamsnn"
+        ],
+        "description": "| Beauty | Fashion | Star | Style+ | Photo | Life | Now |\n| ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n| bnt003000000 | bnt002000000 | bnt004000000 | bnt007000000 | bnt009000000 | bnt005000000 | bnt008000000 |",
+        "location": "index.ts",
+        "module": "() => import('@/routes/bntnews/index.ts')"
+      }
+    },
+    "name": "bntnews",
+    "apiRoutes": {},
+    "url": "bntnews.co.kr",
+    "lang": "ko"
+  },
   "bnu": {
     "routes": {
       "/bs/:category?": {
@@ -20413,6 +20447,67 @@
     "url": "cste.org.cn",
     "lang": "zh-CN"
   },
+  "canada.ca": {
+    "routes": {
+      "/news/:lang/:department?": {
+        "path": "/news/:lang/:department?",
+        "categories": [
+          "government"
+        ],
+        "example": "/canada.ca/news/en/departmentfinance",
+        "parameters": {
+          "lang": "Language, en or fr",
+          "department": "dprtmnt query value"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.canada.ca/:lang/department-finance.html",
+              "www.canada.ca/:lang/ministere-finances.html",
+              "www.canada.ca/:lang/department-finance/news/*",
+              "www.canada.ca/:lang/ministere-finances/nouvelles/*"
+            ],
+            "target": "/news/:lang/departmentfinance"
+          },
+          {
+            "source": [
+              "ised-isde.canada.ca/site/ised/:lang",
+              "ised-isde.canada.ca/site/isde/:lang",
+              "www.canada.ca/:lang/innovation-science-economic-development/news/*",
+              "www.canada.ca/:lang/innovation-sciences-developpement-economique/nouvelles/*"
+            ],
+            "target": "/news/:lang/departmentofindustry"
+          },
+          {
+            "source": [
+              "www.canada.ca/:lang/news/advanced-news-search/news-results.html",
+              "www.canada.ca/:lang/nouvelles/recherche-avancee-de-nouvelles/resultats-de-nouvelles.html"
+            ],
+            "target": "/news/:lang"
+          }
+        ],
+        "name": "News by Department",
+        "maintainers": [
+          "elibroftw"
+        ],
+        "description": "News from specific Canadian government departments",
+        "location": "news.ts",
+        "module": "() => import('@/routes/canada.ca/news.ts')"
+      }
+    },
+    "name": "Canada.ca",
+    "url": "www.canada.ca",
+    "description": "Government of Canada news by department",
+    "lang": "en"
+  },
   "cankaoxiaoxi": {
     "routes": {
       "/column/:id?": {
@@ -20629,6 +20724,129 @@
     "name": "Cara",
     "apiRoutes": {},
     "url": "cara.app",
+    "lang": "en"
+  },
+  "carousell": {
+    "routes": {
+      "/:region/:keyword": {
+        "path": "/:region/:keyword",
+        "categories": [
+          "shopping"
+        ],
+        "example": "/carousell/sg/iphone",
+        "parameters": {
+          "region": {
+            "description": "Region code",
+            "options": [
+              {
+                "value": "au",
+                "label": "Australia"
+              },
+              {
+                "value": "ca",
+                "label": "Canada"
+              },
+              {
+                "value": "hk",
+                "label": "Hong Kong"
+              },
+              {
+                "value": "id",
+                "label": "Indonesia"
+              },
+              {
+                "value": "my",
+                "label": "Malaysia"
+              },
+              {
+                "value": "nz",
+                "label": "New Zealand"
+              },
+              {
+                "value": "ph",
+                "label": "Philippines"
+              },
+              {
+                "value": "sg",
+                "label": "Singapore"
+              },
+              {
+                "value": "tw",
+                "label": "Taiwan"
+              }
+            ]
+          },
+          "keyword": {
+            "description": "Search keyword"
+          }
+        },
+        "name": "Keyword Search",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "radar": [
+          {
+            "source": [
+              "au.carousell.com/search/:keyword"
+            ],
+            "target": "/au/:keyword"
+          },
+          {
+            "source": [
+              "ca.carousell.com/search/:keyword"
+            ],
+            "target": "/ca/:keyword"
+          },
+          {
+            "source": [
+              "www.carousell.com.hk/search/:keyword"
+            ],
+            "target": "/hk/:keyword"
+          },
+          {
+            "source": [
+              "id.carousell.com/search/:keyword"
+            ],
+            "target": "/id/:keyword"
+          },
+          {
+            "source": [
+              "www.carousell.com.my/search/:keyword"
+            ],
+            "target": "/my/:keyword"
+          },
+          {
+            "source": [
+              "nz.carousell.com/search/:keyword"
+            ],
+            "target": "/nz/:keyword"
+          },
+          {
+            "source": [
+              "www.carousell.ph/search/:keyword"
+            ],
+            "target": "/ph/:keyword"
+          },
+          {
+            "source": [
+              "www.carousell.sg/search/:keyword"
+            ],
+            "target": "/sg/:keyword"
+          },
+          {
+            "source": [
+              "tw.carousell.com/search/:keyword"
+            ],
+            "target": "/tw/:keyword"
+          }
+        ],
+        "location": "index.ts",
+        "module": "() => import('@/routes/carousell/index.ts')"
+      }
+    },
+    "name": "Carousell",
+    "apiRoutes": {},
+    "url": "carousell.com",
     "lang": "en"
   },
   "cartoonmad": {
@@ -34102,6 +34320,44 @@
         "view": 0,
         "location": "news.ts",
         "module": "() => import('@/routes/dgtle/news.ts')"
+      },
+      "/tag/:id": {
+        "path": "/tag/:id",
+        "name": "标签",
+        "url": "www.dgtle.com",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/dgtle/tag/394",
+        "parameters": {
+          "id": {
+            "description": "标签 ID，可在对应标签页 URL 中找到"
+          }
+        },
+        "description": ":::tip\n订阅 [#手机讨论区](https://www.dgtle.com/tag-394-1.html)，其源网址为 `https://www.dgtle.com/tag-394-1.html`，请参考该 URL 指定部分构成参数，此时路由为 [`/dgtle/tag/394`](https://rsshub.app/dgtle/tag/394)。\n:::\n",
+        "categories": [
+          "new-media"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.dgtle.com/$tag-:id-\\d+.html"
+            ],
+            "target": "/tag/:id"
+          }
+        ],
+        "view": 0,
+        "location": "tag.ts",
+        "module": "() => import('@/routes/dgtle/tag.ts')"
       },
       "/video": {
         "path": "/video",
@@ -99247,6 +99503,43 @@
     "url": "readhub.cn",
     "lang": "zh-CN"
   },
+  "readsomethingwonderful": {
+    "routes": {
+      "/": {
+        "path": "/",
+        "name": "Articles",
+        "categories": [
+          "blog"
+        ],
+        "example": "/readsomethingwonderful",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "readsomethingwonderful.com/"
+            ]
+          }
+        ],
+        "maintainers": [
+          "ttttmr"
+        ],
+        "location": "index.ts",
+        "module": "() => import('@/routes/readsomethingwonderful/index.ts')"
+      }
+    },
+    "name": "Read Something Wonderful",
+    "apiRoutes": {},
+    "url": "readsomethingwonderful.com",
+    "lang": "en"
+  },
   "readwise": {
     "routes": {
       "/list/:routeParams?": {
@@ -115348,6 +115641,40 @@
         "location": "express.ts",
         "module": "() => import('@/routes/techflowpost/express.ts')"
       },
+      "/featured/:category?": {
+        "path": "/featured/:category?",
+        "categories": [
+          "finance"
+        ],
+        "view": 0,
+        "example": "/techflowpost/featured",
+        "parameters": {
+          "category": "分类，见下表，默认为全部"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "techflowpost.com/article/index.html"
+            ]
+          }
+        ],
+        "name": "精选",
+        "maintainers": [
+          "zhenlohuang"
+        ],
+        "url": "techflowpost.com/article/index.html",
+        "description": "| 全部 | 行业 & 项目观察 | 项目简介 | 项目动态 | 赛道解读 | 播客笔记 | 交易观察 | VC洞察 | 实用教程 | 人物故事 & 访谈 | 法律 & 监管动态 | 活动动态 | 交易所动态 |\n  | ---- | --------------- | -------- | -------- | -------- | -------- | -------- | ------ | -------- | --------------- | --------------- | -------- | ---------- |\n  |      | 2040            | 2046     | 2047     | 2045     | 2044     | 2043     | 2042   | 2041     | 2039            | 2033            | 2032     | 2031       |",
+        "location": "featured.ts",
+        "module": "() => import('@/routes/techflowpost/featured.ts')"
+      },
       "/": {
         "path": "/",
         "example": "/techflowpost",
@@ -116341,6 +116668,50 @@
     "apiRoutes": {},
     "url": "www.theblockbeats.info",
     "lang": "zh-CN"
+  },
+  "thebrain": {
+    "routes": {
+      "/blog": {
+        "path": "/blog",
+        "name": "Blog",
+        "url": "www.thebrain.com",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/thebrain/blog",
+        "categories": [
+          "new-media"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.thebrain.com/blog"
+            ],
+            "target": "/blog"
+          }
+        ],
+        "view": 0,
+        "location": "blog.ts",
+        "module": "() => import('@/routes/thebrain/blog.ts')"
+      }
+    },
+    "name": "TheBrain",
+    "apiRoutes": {},
+    "url": "thebrain.com",
+    "categories": [
+      "new-media"
+    ],
+    "description": "",
+    "lang": "en"
   },
   "thecover": {
     "routes": {
